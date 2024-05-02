@@ -1,0 +1,26 @@
+#cardConfirmado{
+    display: flex;
+    position: ;
+    left: 46rem;
+    top: -28rem;
+    width: 20rem;
+    height: 25rem;
+    background-color: rgb(221, 221, 247);
+}
+
+.imgConfirmado{
+    width: 2rem;
+    height: 2rem;
+}
+
+.pf1{
+    font-family: 'Space Grotesk';
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.pf2{
+    font-family: 'Space Grotesk';
+    font-size: 0.6rem;
+    font-weight: 700;
+}

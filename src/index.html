@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Nunito:ital,wght@0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,700;1,800;1,900;1,1000&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/principal.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+<body>
+  <header>
+    
+  </header>
+  <main>
+    <div class="container">
+      <img src="./images/bg-main-mobile.png" id="cabecalhoBackground" alt="background do cabeçalho">
+        <div>
+              <div class="container--card--back">
+                  <img src="./images/bg-card-back.png" id="versoCartao" alt="verso do cartão de credito">
+                  <p class="codigodeSeguranca---docartao">000</p>
+              </div>
+
+              <div class="container--card--front">
+                  <img src="./images/bg-card-front.png" id="frenteCartao" alt="">
+                  <img src="./images/card-logo.svg" id="logoDocartao" alt="">
+                  
+                  <p class="numerodoCartao">0000 0000 0000 0000</p>
+                  <p class="nomedoCliente--docartao">JANE APPLESEED</p>
+                  <p class="dataDeVencimento--docartao1">00</p>
+                  <p class="dataDeVencimento--docartao2">/</p>
+                  <p class="dataDeVencimento--docartao3">00</p>
+              </div>
+
+              <div id="preencherCartao">
+                  <label for="digiteNomeCliente" class="label--nomeCliente">CARDHOLDER NAME</label>
+                  <input  type="text" placeholder="e.g. Jane Appleseed" id="digiteNomeCliente" >
+                  <!--p id="menssagemErro1">Caracter inválido, digite apenas letras</p>-->
+
+                  <label for="digiteNumeroCartao" class="label--NumerodoCartao">CARD NUMBER</label>
+                  <input type="text" placeholder="e.g. 1234 5678 9123 0000"  id="digiteNumeroCartao" minlength="19" maxlength="19">
+                  <!--<p id="menssagemErro2" >Caracter inválido, digite apenas numeros</p>-->
+
+                  <!--<div class="dataEcvc">-->
+                        <!--<div class="containerData">-->
+                  <label for="mesVencimento" class="labelData" minlength="3">EXP. DATE (MM/YY)</label>
+                  <input type="number" placeholder="MM" id="mesCartao" minlength="2">
+                  <input type="number" placeholder="YY" id="anoCartao" minlength="2" >
+                        <!--</div>-->
+                  <!--<div class="containerCvc">-->
+                  <label for="codigoSeguranca" class="labelCvc">CVC</label>
+                  <input type="number" placeholder="e.g. 123"  id="cvcCartao">       
+                        <!--</div>-->
+              </div>
+                   <!--<div class="areaErro"></div>-->
+
+                   <div class="container--button">
+                    <button id="botaoConfirma" >Confirm</button>
+                  </div>
+        
+              </div>
+
+              
+          
+        </div>
+    </div>
+  </main>
+
+  
+  <script src="./codigo.js"></script>
+</body>
+</html>

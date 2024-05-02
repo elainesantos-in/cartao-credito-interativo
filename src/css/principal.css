@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+}
+
+#cabecalhoBackground{
+    position: relative;
+    height: 100vh;
+    width: 30vw;
+}
+/*--------------------------------------------------*/
+.container{
+    height: 120%;
+}
+.container--card--back {
+    position: absolute;
+    left: 13rem;
+    top: 18rem;
+}
+
+#versoCartao {
+    position: absolute;
+    height: 10rem;
+    left: 4rem;
+    top: 2rem;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.164);
+}
+
+.codigodeSeguranca---docartao{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.7rem;
+    font-weight: 600;
+    left: 18.5rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    top: 6.5rem;
+}
+/*--------------------------------------------------*/
+
+.container--card--front{
+    position: absolute;
+    left: 10rem;
+    top: 1rem;
+}
+
+#frenteCartao{
+    position: absolute;
+    height: 10rem;
+    left: 1rem;
+    top: 7.6rem;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.164);
+}
+
+#logoDocartao{
+    position: absolute;
+    height: 10rem;
+    left: 2rem;
+    top: 9rem;
+    height: 2rem;
+}
+
+.numerodoCartao{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.95rem;
+    left: 2rem;
+    color: rgb(255, 255, 255);
+    letter-spacing:2px;
+    top: 13rem;
+    width: 16rem;
+}
+
+
+.nomedoCliente--docartao{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.7rem;
+    left: 2rem;
+    color: rgb(255, 255, 255);
+    letter-spacing:2px;
+    top: 16rem;
+    width: 16rem;
+}
+
+.dataDeVencimento--docartao1{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.5rem;
+    left: 16rem;
+    color: rgb(255, 255, 255);
+    letter-spacing:2px;
+    top: 16rem;
+
+}
+.dataDeVencimento--docartao2{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.5rem;
+    left: 17rem;
+    color: rgb(255, 255, 255);
+    letter-spacing:2px;
+    top: 16rem;
+}
+
+.dataDeVencimento--docartao3{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.5rem;
+    left: 18rem;
+    color: rgb(255, 255, 255);
+    letter-spacing:2px;
+    top: 16rem;
+
+}
+
+/*--------------------------------------------------*/
+
+#preencherCartao{
+    display: flex;
+    position: relative;
+    left: 46rem;
+    top: -28rem;
+}
+
+.label--nomeCliente{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.7rem;
+    font-weight: 700;
+    left: 2rem;
+    color: rgb(66, 61, 61);
+    letter-spacing:2px;
+    top: 3rem;
+}
+
+#digiteNomeCliente{
+    position: relative;
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.8rem;
+    font-weight: 700;
+    left: 2rem;
+    color: rgb(117, 113, 113);
+    border-radius: 5px;
+    border: 1px solid rgb(212, 204, 204);
+    letter-spacing: 2px;
+    width: 19rem;
+    top: 4.4rem;
+    height: 1.7rem;
+    padding: 0.6rem;
+}
+
+#digiteNomeCliente:focus{
+    outline: none;
+}
+
+.label--NumerodoCartao{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.7rem;
+    font-weight: 700;
+    left: 2rem;
+    color: rgb(66, 61, 61);
+    letter-spacing: 2px;
+    top: 8.5rem;
+}
+
+#digiteNumeroCartao{
+
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.8rem;
+    font-weight: 700;
+    left: 2rem;
+    color: rgb(117, 113, 113);
+    border-radius: 5px;
+    border: 1px solid rgb(212, 204, 204);
+    letter-spacing: 2px;
+    width: 19rem;
+    top: 10.1rem;
+    height: 1.7rem;
+    padding: 0.6rem;
+}
+
+#digiteNumeroCartao:focus{
+    outline: none;
+}
+
+/*--------------------------------------------------*/
+
+.dataEcvc{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerData{
+    position: absolute;
+    left: 2rem;
+    top: 15.6rem;
+    height: 3rem;
+    width: 11rem;
+}
+
+.labelData{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgb(66, 61, 61);
+    letter-spacing: 2px;
+    top: 14.5rem;
+    left: 2.1rem;
+}
+
+#mesCartao{
+    position: relative;
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(117, 113, 113);
+    border-radius: 5px;
+    border: 1px solid rgb(212, 204, 204);
+    letter-spacing: 2px;
+    width: 3.5rem;
+    top: 16.1rem;
+    height: 1.7rem;
+    padding: 0.6rem;
+    left: 2.1rem;
+}
+
+
+#anoCartao{
+    position: relative;
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(117, 113, 113);
+    border-radius: 5px;
+    border: 1px solid rgb(212, 204, 204);
+    letter-spacing: 2px;
+    width: 3.5rem;
+    top: 16.1rem;
+    height: 1.7rem;
+    padding: 0.6rem;
+    left: 7.5rem;
+}
+
+/*--------------------------------------------------*/
+.containerCvc{
+    position: absolute;
+    left: 14rem;
+    top: 16rem;
+    height: 3rem;
+    width: 10rem;
+}
+
+.labelCvc{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgb(66, 61, 61);
+    letter-spacing: 2px;
+    top: 14.5rem;
+    left: 13rem;
+}
+
+#cvcCartao{
+    position: relative;
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.8rem;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 204, 204);
+    letter-spacing: 2px;
+    width: 8rem;
+    top: 16.1rem;
+    height: 1.7rem;
+    padding: 0.6rem;
+    left: 13rem;
+    color: rgb(117, 113, 113)
+}
+/*------------------------------------------------*/
+
+#botaoConfirma{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: hsl(278, 94%, 30%);
+    border-radius: 8px;
+    width: 20.4rem;
+    top: 30.8rem;
+    height: 2.9rem;
+    padding: 0.6rem;
+    left: 48rem;
+    text-align: center;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.301);
+}
+
+
+/*------------------------------------------------*/
+
+input::placeholder {
+    color: rgb(212, 204, 204);;
+}
+
+/*------------------------------------------------*/
+
+#menssagemErro1{
+    position: absolute;
+    top: 7.6rem;
+    left: 2rem;
+    font-family: 'Space Grotesk';
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(223, 6, 6);
+    
+   
+}
+
+/*-------------------------------------*/
+
+#divCardThanyou{
+    position: relative;
+    left: 44rem;
+    top: -28rem;
+    width: 17rem;
+    height: 20rem;
+    
+}
+
+.imgConfirmado {
+    position: relative;
+    left: 5rem;
+    top: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.pf1{
+    position: relative;
+    font-family: 'Space Grotesk';
+    font-size: 1.2rem;
+    font-weight: 700;
+    top: 5rem;
+    left: 3.5rem;
+    color: hsl(278, 94%, 30%);
+    
+}
+
+.pf2{
+    position: relative;
+    font-family: 'Space Grotesk';
+    font-size: 0.7rem;
+    font-weight: 700;
+    width: 13rem;
+    top: 5.5rem;
+    left: 1.1rem;
+    color: hsl(278deg 4.72% 62.75%);
+    letter-spacing: 0.5px;
+}
+
+.botaoContinue{
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: hsl(279, 97%, 14%);
+    border-radius: 6px;
+    width: 15.4rem;
+    top: 20.8rem;
+    height: 2rem;
+    padding: -0.4rem;
+    left: -1.2rem;
+    text-align: center;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.301);
+
+}
+
+.campoInvalido{
+    position: absolute;
+    top: 0.1rem;
+    width: 7rem;
+    font-family: 'Space Grotesk';
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(223, 6, 6);
+    left: 0
+}
+
+.paragrafoErro{
+    position: absolute;
+    top: 7.7rem;
+    left: 2rem;
+    font-family: 'Space Grotesk';
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(223, 6, 6);
+}
+.paragrafoErro2{
+    position: absolute;
+    top: 19.3rem;
+    left: 2rem;
+    font-family: 'Space Grotesk';
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(223, 6, 6);
+    width: 1rem;
+}
+.paragrafoErro3{
+    position: absolute;
+    top: 19.3rem;
+    left: 7.5rem;
+    font-family: 'Space Grotesk';
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(223, 6, 6);
+    width: 1rem;
+}
+.paragrafoErro4{
+    position: absolute;
+    top: 19.3rem;
+    left: 13rem;
+    font-family: 'Space Grotesk';
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(223, 6, 6);
+    width: 1rem;
+}
+
+.paragrafoErro5{
+    position: absolute;
+    top: 13.3rem;
+    left: 2rem;
+    font-family: 'Space Grotesk';
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(223, 6, 6);
+    width: 11rem;
+}
+
+.erroContainer{
+    position: absolute;
+    top: 7.4rem;
+    height: 1rem;
+    width: 8rem;
+    left: 2rem
+
+}
+
+.cardThankyou{
+    position: relative;
+    position: absolute;
+    height: 27rem;
+    width: 23rem;
+    background-color: rgb(255, 255, 255);
+    top: 9rem;
+    left: 47rem;
+}
+
+.imgIconeThankyou{
+    position: absolute;
+    height: 3.5rem;
+    width: 3.5rem;
+    left: 10rem;
+    top: 4rem;
+}
+
+.tituloThankyou{
+    position: absolute;
+    top: 9rem;
+    left: 7.5rem;
+    font-size: 1.2rem;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    color: hsl(278, 68%, 11%);
+    letter-spacing: 3px;
+
+}
+
+.paragrafoThankyou{
+    position: absolute;
+    top: 11rem;
+    left: 5.7rem;
+    font-size: 0.8rem;
+    font-family: 'Space Grotesk';
+    color: hsl(279, 6%, 55%);
+    font-weight: 600;
+
+}
+.buttonContinueThankyou{
+    width: 18rem;
+    height: 2.1rem;
+    position: absolute;
+    left: 2.4rem;
+    color: white;
+    background-color: hsl(278, 68%, 11%);
+    top: 14rem;
+    border-radius: 0.3rem;
+}
+
+
+
